@@ -24,6 +24,16 @@
   color: white;
 }
 
+/* src/App.css */
+.main-section {
+  background: linear-gradient(to right, blue, yellow),
+    url("/public/assets/images/background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  color: white;
+}
+
 .App-link {
   color: #61dafb;
 }

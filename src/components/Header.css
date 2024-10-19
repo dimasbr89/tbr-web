@@ -1,0 +1,24 @@
+/* Header.css */
+.nav-link {
+  transition: background-color 0.3s, color 0.3s; /* Animasi halus untuk perubahan warna */
+}
+
+.nav-link:hover {
+  background-color: #007bff; /* Ubah latar belakang saat hover */
+  color: white; /* Ubah warna teks saat hover */
+}
+
+.navbar {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan pada navbar */
+}
+
+.navbar-brand {
+  font-weight: bold; /* Membuat brand lebih menonjol */
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+  .navbar-nav {
+    text-align: center; /* Rata tengah untuk navigasi pada perangkat kecil */
+  }
+}
